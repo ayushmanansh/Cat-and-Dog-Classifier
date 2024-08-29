@@ -19,15 +19,7 @@ git clone https://github.com/yourusername/cat-and-dog-classification.git
 
 Navigate to the project directory:
 
-bash
-
 cd cat-and-dog-classification
-
-Install the required dependencies:
-
-bash
-
-    pip install -r requirements.txt
 
 Usage
 
@@ -36,14 +28,3 @@ Usage
     bash
 
 jupyter notebook CatAndDog.ipynb
-
-Use the trained model to classify images:
-
-python
-
-# Example code to load and use the model
-from model import load_model, predict_image
-
-model = load_model('model.h5')
-result = predict_image(model, 'path/to/image.jpg')
-print(result)
